@@ -1,0 +1,16 @@
+{
+  "name": "@devsoutinho/monorepo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:devsoutinho/monorepo-example.git",
+  "author": "Mario Souto <soutomarios@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "website": "yarn workspace @devsoutinho/website",
+    "components": "yarn workspace @devsoutinho/components"
+  }
+}
